@@ -8,6 +8,7 @@ for (let iter in array2){
     if(iter == 2){
         for (let iter2 of array1){
             document.write(`${iter2}<br>`);
+            break forVale; // corto el for principal
         }
     }    
     else{
