@@ -1,2 +1,5 @@
 El json()método de la Responseinterfaz toma un json y lo lee hasta el final. Devuelve una promesa que se resuelve con el resultado de analizar el texto del cuerpo como JSON.
 Tenga en cuenta que, a pesar de que se nombra el método json(), el resultado no es JSON, sino el resultado de tomar JSON como entrada y analizarlo para producir un objeto JavaScript.
+
+Valor devuelto
+Promiseque se resuelve en un objeto de JavaScript, Este objeto podría ser cualquier cosa que se pueda representar mediante JSON: un objeto, una matriz, una cadena, un número...
